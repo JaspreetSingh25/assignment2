@@ -1,0 +1,299 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    scroll-behavior: smooth;
+}
+#head
+{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+.navbar
+{
+    padding: .5rem 1rem;
+    height: 9vh;
+    background: #343a40;
+}
+.logo 
+{
+    position: absolute;
+    top: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.navbar ul
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-left: 60%;
+    margin-top: 20px;
+}
+.navbar ul li
+{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: *
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    scroll-behavior: smooth;
+}
+#head
+{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+.navbar
+{
+    padding: .5rem 1rem;
+    height: 9vh;
+    background: #343a40;
+}
+.logo 
+{
+    position: absolute;
+    top: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.navbar ul
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-left: 60%;
+    margin-top: 20px;
+}
+.navbar ul li
+{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+#welcome
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    margin-top: 10%;
+    background: rgb(244, 98, 58); 
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+	box-shadow: 0px 0px 25px #666;
+}
+.title
+{
+    margin-left: 40%;
+    margin-top: 30px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000,
+                 -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                  1px 1px 0 #000;
+}
+.id
+{
+    margin-left: 27%;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+.and
+{
+    margin-left: 46%;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+.name
+{
+    margin-left: 15%;   
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+.texts
+{
+    margin-top: 6%;
+    margin-left: 20px;
+}
+
+/***************************** ABOUT ***********************/
+#about
+{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+.about-content
+{
+    margin-top: 1.5%;
+    position: absolute;
+    margin-left: 20px;
+    width: 97%;
+    height: 92vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    border: 1px solid #000;
+}
+.fa-id-card
+{
+    position: absolute;
+    margin-left: 35vh;
+    margin-top: 13%;
+    width: 30%;
+    font-size: 100px;
+
+    height: 10vh;
+    padding: 50px;
+}
+.right-side
+{
+    margin-left: 50%;
+    margin-top: 13%;
+    width: 50%;
+}
+.right-side p
+{
+    width: 80%;
+}
+.username
+{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/**************************** SERVICES **********************/
+#services
+{
+    width: 100%;
+    height: 70vh;
+}
+.service-title
+{
+    margin-left: 43%;
+    top: 0;
+    margin-top: 103%;
+    position: absolute;
+    font-size: 50px;
+}
+.service-box
+{
+    display: flex;
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 10%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.service1, .service2, .service3, .service4
+{
+    margin: 10px;
+}
+.service1
+{
+    width: 37%;
+}
+.fa-tape, .fa-gem, .fa-laptop-code, .fa-globe
+{
+    color: #2282FF;
+    margin-top: 3%;
+    margin-left: 37%;
+    font-size: 70px;
+}
+.service1 h3, .service2 h3, .service3 h3, .service4 h3
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.service1 p, .service2 p, .service3 p, .service4 p
+{
+    text-align: center;
+}
+
+/********************************************** FOOTER ************************/
+
+#footer
+{
+    padding: .5rem 1rem;
+    height: 9vh;
+    background: #343a40;
+}
+.fa-copyright
+{
+    color: #fff;
+}
+.footer-content p
+{
+    color: #fff;
+}
+.footer-content
+{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.buttons
+{
+    position: absolute;
+}
+.buttons a
+{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.return
+{
+    margin-left: 90%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color: #fff;
+}

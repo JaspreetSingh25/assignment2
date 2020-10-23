@@ -15,6 +15,23 @@ module.exports = function(passport) {
       // Match user
       User.findOne({
         email: email
+      }).thconst LocalStrategy = require('passport-local').Strategy
+const db = require('./backend/database');
+const User = require('./models/user.js');
+const { lookupService } = require('dns');
+
+
+
+
+
+module.exports = function(passport) {
+
+
+  passport.use(
+    new LocalStrategy( {usernameField: 'email', passwordField: 'password'},(email, password, done) => {
+      // Match user
+      User.findOne({
+        email: email
       }).then(user => {
         if (!user) {
           return done(null, false, { message: 'That email is not registered' });
